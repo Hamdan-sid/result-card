@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="inputs">
+<h1>Result Card</h1>
+
+<label for="">
+    Total Number Of Physics: <input type="text" id="phyTotalMarks">
+</label>
+<br>
+<label for="">
+    Obtained Number Of Physics: <input type="text" id="phyObtainedMarks">
+</label>
+<br>
+<label for="">
+    Total Number Of Chemistry: <input type="text" id="chmTotalMarks">
+</label>
+<br>
+<label for="">
+    Obtained Number Of Chemistry: <input type="text" id="chmObtainedMarks">
+</label>
+<br>
+<label for="">
+    Total Number Of Math: <input type="text" id="mathTotalMarks">
+</label>
+<br>
+<label for="">
+    Obtained Number Of Math: <input type="text" id="mathObtainedMarks">
+</label>
+<br>
+
+</div>
+<button onclick="check()">Check</button>
+<div class="card">
+    <Table>
+        <tr>
+            <th>Subject</th>
+            <th>Total Number</th>
+            <th>Obtained</th>
+        </tr>
+        <tr>
+            <td>Physics:</td>
+            <td id="phyTotal"></td>
+            <td id="phyObtained"></td>
+        </tr>
+        <tr>
+            <td>Chemistry:</td>
+            <td id="chmTotal"></td>
+            <td id="chmObtained"></td>
+        </tr>
+        <tr>
+            <td>Math:</td>
+            <td id="mthTotal"></td>
+            <td id="mthObtained"></td>
+        </tr>
+       
+        <tr>
+
+            <td>Total Mark:</td>
+            <td id="Total"></td>
+            <td id="Obtain"></td>
+        </tr>
+    </Table>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

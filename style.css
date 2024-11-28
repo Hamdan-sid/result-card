@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: #d13131;
+    line-height: 3rem;
+
+}
+.container{
+    display: flex;
+    background-color: black;
+    justify-content: space-evenly;
+}
+label{
+    font-size: 22px;
+    color: rgb(249, 245, 245);
+    line-height: 2rem;
+}
+.card{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+button{
+    height: 30px;
+    width: 150px;
+    margin-top: 40px;
+}
+button :hover{
+    transition: all 1s ease-in-out;
+    background-color: #d13131;
+    color: black;
+}
+td{
+    line-height: 1.5rem;
+}
